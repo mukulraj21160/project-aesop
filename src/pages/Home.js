@@ -1,10 +1,4 @@
-import {
-  Button,
-  Grid,
-  Hidden,
-  makeStyles,
-  Typography,
-} from "@material-ui/core";
+import { Button, Grid, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
 import AesopImage from "../assets/aesop.png";
 import Header from "../components/Header";
@@ -18,10 +12,8 @@ const main = makeStyles((theme) => ({
   },
   content: {
     marginTop: "70px",
-    // marginLeft: "60px",
     paddingLeft: "60px",
     color: "white",
-    // fontSize: "40px",
   },
   heading: {
     fontSize: "2rem",
@@ -47,9 +39,7 @@ const Home = () => {
   const classes = main();
   return (
     <div className={classes.root}>
-      {/* <Hidden smDown> */}
       <Header />
-      {/* </Hidden> */}
 
       <Grid container className={classes.content}>
         <Grid item md={1} lg={1}>

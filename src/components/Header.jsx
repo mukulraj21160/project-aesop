@@ -5,9 +5,7 @@ const main = makeStyles((theme) => ({
   main: {
     display: "flex",
     justifyContent: "space-between",
-    // backgroundColor: "orange",
     color: "white",
-    // marginTop: "50px",
     fontWeight: "bold",
   },
   nav: {

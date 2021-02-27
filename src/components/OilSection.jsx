@@ -1,6 +1,5 @@
-import { Grid, makeStyles, Typography } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import React from "react";
-import Bottle from "../assets/bottle.png";
 import Card from "./Card";
 
 const main = makeStyles((theme) => ({
@@ -12,11 +11,6 @@ const main = makeStyles((theme) => ({
 const OilSection = () => {
   const classes = main();
   return (
-    // <div>
-    //   <img src={Bottle} alt="bottle" className={classes.image} />
-    //   <Typography className={classes.title}>Tacit</Typography>
-    //   <Typography className={classes.subTitle}> Crisp</Typography>
-    // </div>
     <Grid container className={classes.content}>
       <Grid item lg={4}>
         <Card oil />
